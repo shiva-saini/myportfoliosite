@@ -1,0 +1,176 @@
+@media (max-width: 700px) {
+    .cards{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    #projects #minor-projects{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    #projects #major-projects{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+
+
+    .content{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #skill_experience{
+        min-height: 700px;
+    }
+    
+    #education{
+        flex-direction: column;
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    .me{
+        display: none;
+    }
+
+    #home .techstack{
+        top:500px;
+        right:220px
+    }
+
+    nav .right{
+        display: none;
+    }
+
+    #home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:100px;
+    }
+    .hi,.profession,.techstack{
+        position: inherit;
+        top:-250px;
+    }
+
+    .hi{
+        left: 0;
+    }
+
+    .profession{
+        left: 0;
+    }
+
+    .techstack{
+        right: 0;
+        left: 100px;
+    }
+    #home{
+        min-height: 900px;
+    } 
+
+    .main_mobile .email,.mobile{
+        width: 150px;
+        gap:0;
+    }
+
+    .form{
+        width: 400px;
+    }
+
+    #contact .form input{
+        width: 72%;
+    }
+     
+
+    #contact .form textarea{
+       width: 430px;
+        
+    }
+    
+}
+
+
+
+
+@media (min-width: 600px) and (max-width:700px){
+    .techstack{
+        right: 0;
+        left: 200px;
+    }
+
+    .content{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #skill_experience{
+        min-height: 700px;
+    }
+}
+
+@media (min-width: 700px) and (max-width:1000px){
+    .content{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #skill_experience{
+        min-height: 700px;
+    }
+}
+
+@media (min-width: 700px) and (max-width:1100px){
+    #home .techstack{
+        display: none;
+    }
+   
+    #projects #minor-projects{
+        display: flex;
+        flex-direction:row;
+        justify-content:space-evenly;
+        flex-wrap:wrap;
+        gap:20px;
+    }
+
+   
+    
+    #projects #minor-projects .item{
+        min-width: 300px;
+    }
+
+
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+    }
+
+    #home{
+        min-height: 900px;
+    } 
+
+    .hi,.profession,.techstack{
+        position: inherit;
+        top:-300px;
+    }
+   
+    #home{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:50px;
+    }
+
+    .me{
+          position: relative;
+          top:0;
+    }
+}
+
+
+
+@media (max-width: 700px) {
+    .hamburger{
+        display: flex;
+    }
+}
+
