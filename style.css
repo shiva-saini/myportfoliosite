@@ -17,6 +17,13 @@ nav{
     z-index: 1000;
 }
 
+nav .left{
+  width: 200px;
+}
+nav .left h2{
+   width: 100%;
+   align-items: center;
+}
 .hamburger{
     /* display: flex; */
     justify-content: center;
@@ -110,6 +117,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
+    width: 100%;
     /* padding: 0 20px; */
 }
 
@@ -318,6 +326,7 @@ main{
     width: 100%;
     background-color: #EDF2F8;
     padding-bottom: 50px;
+    gap:100px;
 }
 #education .left{
     display: flex;
@@ -366,7 +375,7 @@ main{
     justify-content: center;
     flex-flow: column wrap;
     color:#030303;
-    gap:100px;
+    gap:250px;
 
 }
 
@@ -375,8 +384,8 @@ main{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap:50px;
-    min-width: 350px;
+    gap:15px;
+    min-width: 300px;
 }
 
 #education .right .schooldesc{
@@ -384,8 +393,8 @@ main{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    gap:50px;
-    min-width: 350px;
+    gap:15px;
+    min-width: 300px;
 }
 
 
@@ -659,7 +668,7 @@ main{
   display: flex;
   flex-flow: row wrap;
   gap:20px;
- padding-left: 10px;
+  padding-left: 10px;
   align-items: flex-start;
   justify-content: center;
 }
@@ -692,10 +701,12 @@ main{
 }
 .mail_mobile{
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-content: center;
+  min-width: 600px;
   gap:10px;
-  height: 80px;
+  min-height: 80px;
 }
 
 .mail_mobile a{
@@ -703,9 +714,24 @@ main{
   color: #030303;
 } 
 
+.dummy{
+  display: none;
+  width: 200px;
+  height: 59px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  background-color: #FEF4F5;
+  border-radius: 10px;
+}
+.dummy img{
+  width: 20px;
+  height: 20px;
+}
 .email{
   width: 300px;
-  height: 80px;
+  height: 59px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -720,8 +746,8 @@ main{
 }
 
 .mobile{
-  width: 300px;
-  height: 80px;
+  width: 280px;
+  height: 59px;
   display: flex;
   justify-content: center;
   align-items: center;
