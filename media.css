@@ -230,20 +230,18 @@
 
     footer{
         grid-template-columns: repeat(1,1fr);
-        padding-right:100px;
-        padding-left: 1;
     }
     .common_a{
         width: 300px;
         height: 50px;
         gap:10px;
-        background-color: grey;
+        /* background-color: grey; */
     }
     .common_a a{
         color: whitesmoke;
     }
     .github{
-        gap:30px
+        gap:25px
     }
     
 }
