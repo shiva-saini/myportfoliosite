@@ -701,7 +701,7 @@ main{
 }
 .mail_mobile{
   display: flex;
-  flex-flow: row wrap;
+  /* flex-flow: row wrap; */
   justify-content: center;
   align-content: center;
   min-width: 600px;
@@ -714,21 +714,8 @@ main{
   color: #030303;
 } 
 
-.dummy{
-  display: none;
-  width: 200px;
-  height: 59px;
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
-  gap:10px;
-  background-color: #FEF4F5;
-  border-radius: 10px;
-}
-.dummy img{
-  width: 20px;
-  height: 20px;
-}
+
+
 .email{
   width: 300px;
   height: 59px;
@@ -802,3 +789,30 @@ main{
   padding: 10px 10px;
   border-radius: 10px;
 }
+
+
+/* footer */
+
+footer{
+    position: relative;
+    top:67px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 50px 50px;
+    background-color: #323D49;
+
+    
+}
+
+footer a{
+  text-decoration: none;
+  color: #ACB4BF;
+}
+
+.common_a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:5px;
+}
+

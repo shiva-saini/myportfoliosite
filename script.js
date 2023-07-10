@@ -53,7 +53,9 @@ let form = document.getElementById('form');
 let submitButton = document.getElementById('submitbtn')
 function submitForm(event) {
     event.preventDefault();
+    form.reset();
     sendEmail();
+
 }
 
 function sendEmail() {
@@ -64,6 +66,7 @@ function sendEmail() {
   }
   emailjs.send("service_h1kpfxq","template_v597zso",params).then((res) => {
               alert("Congrats! Message sent successfully")
+             
   })
 }
 
