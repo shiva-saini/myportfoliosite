@@ -793,7 +793,7 @@ main{
 
 /* footer */
 
-footer{
+.endfooter{
     position: relative;
     top:67px;
     display: grid;
@@ -804,7 +804,7 @@ footer{
     
 }
 
-footer a{
+.endfooter a{
   text-decoration: none;
   color: #ACB4BF;
 }

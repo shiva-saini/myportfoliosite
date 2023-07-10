@@ -224,11 +224,11 @@
     nav .right{
         display: none;
     }
-    footer{
+    .endfooter{
         overflow-x: hidden;
     }
 
-    footer{
+    .endfooter{
         grid-template-columns: repeat(1,1fr);
     }
     .common_a{
